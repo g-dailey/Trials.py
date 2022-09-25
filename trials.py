@@ -75,6 +75,7 @@ def snake_to_camel(string):
 
     for word in split_string:
         camel_case.append(f'{word[0].upper()}{word[1:]}')
+        #adding a comment
 
     return "".join(camel_case)
 
