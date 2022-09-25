@@ -168,6 +168,7 @@ function truncate(string) {
 
   function hasBalancedParens(string) {
   let parens = 0;
+  //this is a comment
 
   for (const char of string) {
     if (char === '(') {
